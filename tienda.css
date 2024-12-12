@@ -1,0 +1,45 @@
+body{
+    font-family: "New Amsterdam";
+    background-color: darkgrey;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+ul{
+    display: flex;
+    font-size: 23px;
+}
+
+a{
+    font-size: 23px;
+    background: none;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 135px;
+    background-color: blue;
+}
+
+.contenedor4{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item{
+    text-align: center;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+}

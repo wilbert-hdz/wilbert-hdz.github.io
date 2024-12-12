@@ -1,0 +1,65 @@
+body{
+    font-family: "New Amsterdam";
+    background-color: darkgrey;
+}
+
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+
+ul{
+    display: flex;
+    font-size: 23px;
+}
+
+a{
+    font-size: 23px;
+    background: none;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    height: 135px;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.contenedor2{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.item{
+    text-align: center;
+}
+
+.item img {
+    display: block;
+    margin: 0 auto;
+}
+
+p.IG{
+    color: #d300b3;
+    font-size: 25px;
+}
+
+p.YT{
+    color: red;
+    font-size: 25px;
+}
+
+p.FC{
+    color: blue;
+    font-size: 25px;
+}
+
+img.border{
+    border-radius: 10%;
+}
