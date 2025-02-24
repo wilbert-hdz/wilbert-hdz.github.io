@@ -1,18 +1,19 @@
-body{
-    font-family: "New Amsterdam";
+body {
+    font-family: "New Amsterdam", sans-serif;
     background-color: darkgrey;
 }
 
-li{
+li {
     list-style: none;
     margin-right: 25px;
 }
-ul{
+
+ul {
     display: flex;
     font-size: 23px;
 }
 
-a{
+a {
     font-size: 23px;
     background: none;
     padding: 10px;
@@ -20,7 +21,7 @@ a{
     text-decoration: none;
 }
 
-header{
+header {
     justify-content: space-between;
     align-items: center;
     display: flex;
@@ -28,18 +29,38 @@ header{
     background-color: blue;
 }
 
-.contenedor4{
+.contenedor4 {
     margin-top: 7%;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center;  
+    gap: 20px;
 }
 
-.item{
+.item {
     text-align: center;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center; 
 }
 
 .item img {
     display: block;
     margin: 0 auto;
+    height: 250px;
+    object-fit: contain;
+}
+
+
+.comprar-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: "New Amsterdam";
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
