@@ -1,31 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
-    <link rel="stylesheet" href="form.css">
+    <title>Formulario de Producto</title>
 </head>
 <body>
-    <center><h1>Formulario de Pedido</h1></center>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
 
-    <form action="https://formsubmit.co/hcwilbert10@gmail.com" method="POST">
-        <label>Nombre:</label>
-        <input type="text" name="name" required>
-        
-        <label>Correo Electrónico:</label>
-        <input type="email" name="email" required>
-        
-        <label>Producto:</label>
-        <input type="text" name="product" required>
-        
-        <label>Cantidad:</label>
-        <input type="number" name="quantity" required>
-        
-        <label>Dirección de Envío:</label>
-        <textarea name="address" required></textarea>
-        
-        <button type="submit">Enviar Pedido</button>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="producto">Producto:</label>
+        <input type="text" id="producto" name="producto" required><br><br>
+
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" required><br><br>
+
+        <label for="direccion_envio">Dirección de Envío:</label>
+        <textarea id="direccion_envio" name="direccion_envio" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
